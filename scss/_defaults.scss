@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure {
+	padding: 0;
+	margin: 0;
+}
+
+body,
+a,
+li,
+ul,
+p {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	display: block;
+	height: auto;
+}
+
+body {
+	font-family: "Kumbh Sans", sans-serif;
+	background: linear-gradient(var(--bg-color1), var(--bg-color2));
+	background-repeat: no-repeat;
+	position: relative;
+	height: auto;
+	padding: 180px 0;
+}

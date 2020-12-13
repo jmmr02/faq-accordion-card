@@ -1,0 +1,29 @@
+{
+  "name": "faq-accordion-card",
+  "version": "1.0.0",
+  "description": "A faq accordion card component for a frontend UI",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -o css/ scss/",
+    "postcss": "postcss -u autoprefixer -r css/*",
+    "build:css": "npm run scss && npm run postcss",
+    "watch:css": "onchange scss/*.scss -- npm run build:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmmr02/faq-accordion-card.git"
+  },
+  "author": "jmmr02",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmmr02/faq-accordion-card/issues"
+  },
+  "homepage": "https://github.com/jmmr02/faq-accordion-card#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.1.0",
+    "node-sass": "^5.0.0",
+    "onchange": "^7.1.0",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1"
+  }
+}

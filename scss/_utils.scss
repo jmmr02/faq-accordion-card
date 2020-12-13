@@ -1,0 +1,24 @@
+:root {
+	/* Gradient background colors  */
+	--bg-color1: hsl(273, 75%, 66%);
+	--bg-color2: hsl(240, 73%, 65%);
+
+	/* Primary Text colors  */
+	--blue-primary: hsl(238, 29%, 16%);
+	--red-highlight: hsl(14, 88%, 65%);
+	--dark-gray: hsl(237, 12%, 33%);
+	--gray: hsl(240, 6%, 50%);
+	--divider-color: hsl(240, 5%, 91%);
+
+	// Box-shadow
+	--box-shadow: 0px 8px 18px 2px rgba(0, 0, 0, 0.21);
+}
+
+// Functions
+@function toRem($size, $baseSize: 16px) {
+	@return ($size / $baseSize) * 1rem;
+}
+
+@function toEm($size, $baseSize: 16px) {
+	@return ($size / $baseSize) * 1em;
+}
