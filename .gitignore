@@ -20,4 +20,4 @@
 node_modules/
 
 # Ignore css folder output from scss compilation
-./css/
+css/
